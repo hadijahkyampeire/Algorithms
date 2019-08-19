@@ -8,7 +8,12 @@ It’s the kind of an algorithm which searches through graph or tree data struct
 The time complexity can be expressed as O(|V|+|E|), since every vertex and every edge will be explored in the worst case. |V| is the number of vertices and |E| is the number of edges in the graph. Note that O(|E|) may vary between O(1) and O(|V|^{2}), depending on how sparse the input graph is.
 The space complexity can be expressed as O(|V|), where |V| is the set of vertices
 ```
-[Useful Video about BFS and DFS](https://www.youtube.com/watch?v=pcKY4hjDrxk) 
+- [Useful Video about BFS and DFS](https://www.youtube.com/watch?v=pcKY4hjDrxk) 
+
+- `Demo`
+
+  ![](Animated_BFS.gif)
+
 
 
 ## Depth First search Algorithm:
@@ -35,7 +40,7 @@ Tree
 - Hierarchical model                                 	 
 - Only one edge btn two nodes                	        
 - Has a root node  
-                                  	 
+
 Graph
 - Network model
 - Many edges on two nodes
